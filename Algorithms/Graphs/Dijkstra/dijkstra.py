@@ -52,7 +52,7 @@ class Graph():
   
             # Put the minimum distance vertex in the  
             # shotest path tree 
-            sptSet[u] = True
+            sptSet[u] = False 
   
             # Update dist value of the adjacent vertices  
             # of the picked vertex only if the current  
