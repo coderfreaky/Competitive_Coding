@@ -41,7 +41,7 @@ class Graph():
   
         dist = [sys.maxint] * self.V 
         dist[src] = 0
-        sptSet = [True] * self.V 
+        sptSet = [False] * self.V 
   
         for cout in range(self.V): 
   
