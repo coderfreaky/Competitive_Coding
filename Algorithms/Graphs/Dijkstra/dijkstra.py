@@ -8,7 +8,7 @@ import sys
 class Graph(): 
   
     def __init__(self, vertices): 
-        self.V = vertices 
+        self.V = vertices+1
         self.graph = [[0 for column in range(vertices)]  
                     for row in range(vertices)] 
   
