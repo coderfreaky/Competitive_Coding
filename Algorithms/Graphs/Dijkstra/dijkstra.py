@@ -30,7 +30,7 @@ class Graph():
         for v in range(self.V): 
             if dist[v] < min and sptSet[v] == False: 
                 min = dist[v] 
-                min_index = v+1 
+                min_index = v
   
         return min_index 
   
